@@ -1,24 +1,25 @@
-# Computing across seven KOS
+# Computing across KOS
 
-This small comparison uses one shared computing/programming theme and reuses Python wherever the supplied records support it. All samples come from the previously organized Excel collection. No external records or invented instances were added.
+One computing/programming theme is reused across the seven available KOS, with Python included where the local records support it. This is a small structural comparison, not an equivalence mapping or coverage benchmark.
 
-- [KOS_Computing_Samples.xlsx](KOS_Computing_Samples.xlsx) contains an overview, one worksheet per KOS and exact source-row evidence. Each block retains selected native columns; `evidence_ref` is an added pointer to the Evidence sheet.
-- [KOS_Computing_Structures.pdf](KOS_Computing_Structures.pdf) draws the selected relationships. Solid arrows follow the retained relation direction. LCC layout relations are explicitly marked as derived.
+## Files
 
-| KOS | Selected anchor | Interpretation |
-|---|---|---|
-| DDC | Python pocket reference -> 005 | Existing third-party document label; no official DDC schedule path is reconstructed. |
-| UDC | Computer languages (004.43) | Subject category under Software (004.4) and Computing (004). |
-| LCC | Python (QA76.73.P98) | Printed entry under programming-language context; layoutContains is derived from indentation. |
-| LCSH | Programming languages (Electronic computers) | Broader authority plus the variant label Computer languages. |
-| SUMO | ComputerLanguage | Ontology class, subclass facts and an existing membership-inheritance rule. |
-| Wikidata | computer science (Q21198) | A broader discipline-level subclass chain, with native statement IDs and rank. |
-| DBpedia | Python (programming language) | A resource with a class type and an incoming programmingLanguage relation from Gramps. |
+- [KOS_Computing_Samples.xlsx](KOS_Computing_Samples.xlsx): the original 42-record selection, with native fields and source-row evidence. It does not include every neighbor added to the revised diagrams.
+- [KOS_Computing_Structures.pdf](KOS_Computing_Structures.pdf): four pages, with each evidence table above its corresponding diagram.
+- [KOS_Computing_Structures.tex](KOS_Computing_Structures.tex): self-contained editable LaTeX source for the PDF; no external images or data files are needed to compile it.
 
-The common theme is not an equivalence mapping. In particular, the book, schedule entry, authority, ontology class and resource are different kinds of objects. The selected Wikidata records are broader than programming languages. Missing Python-level records in this bounded sample do not imply that the complete KOS lacks them.
+| KOS | What the example shows |
+|---|---|
+| DDC | Observed labels 004, 005 and 006, document titles and description excerpts; no official captions or sibling hierarchy are inferred. |
+| UDC | Computer languages, computer programming and system software share Software as their broader concept. |
+| LCC | Python, Pseudocode and RPG share printed language-list context; dashed layoutContains links are derived from indentation. |
+| LCSH | Programming languages and Computer programming share a broader heading; Computer languages is a variant, not a sibling class. |
+| SUMO | ComputerLanguage and ConstructedLanguage share ArtificialLanguage as a superclass; an existing logic rule is retained. |
+| Wikidata | Applied and theoretical computer science share computer science as a superclass; this is a broader discipline-level example. |
+| DBpedia | Python and Assembly language resources share a class type; Gramps has a programmingLanguage link to Python. |
 
-## Traceability
+Source workbook names, sheets and physical Excel row numbers appear in the PDF and LaTeX source. All added context comes from the existing [datasets](../../datasets/) collection; some rows are outside the [10,000-row subsets](../../cleaned_10000/). No new source data was collected.
 
-Open the matching KOS worksheet for its native rows. Use `evidence_ref` to find the source filename, sheet, physical Excel row and original record ID. `source_workbook` paths are relative to the repository root, which contains the `datasets` directory. Original source text, identifiers and blank values remain unchanged in the selected columns.
+YAGO 4.6, FAST and BabelNet are marked **No data** for this project's prepared samples. WordNet is deferred as lower priority. These statuses do not describe the availability of the complete external KOS.
 
-This is a deliberate teaching sample, not a statistical benchmark or an assessment of overall KOS coverage. Each diagram shows one useful structure without adding unrelated examples. The [dataset guide](../../Dataset_Guide.xlsx) retains full scope and source-rights information. Return to the [repository overview](../../README.md) for the complete retained collection.
+See the [dataset guide](../../Dataset_Guide.xlsx) for collection details and the [repository overview](../../README.md) for file locations.
