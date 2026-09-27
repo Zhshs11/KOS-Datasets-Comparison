@@ -1,51 +1,30 @@
-# Seven KOS Datasets and Structural Examples
+# KOS Datasets and Structural Examples
 
-This repository organizes the downloaded Excel data for DDC, UDC, LCC, LCSH, SUMO, Wikidata and DBpedia. The dataset collection covers the retained material across topics. A separate computing example illustrates selected organizational structures; it is not the scope of the dataset analysis.
+Private research collection for DDC, UDC, LCC, LCSH, SUMO, Wikidata and DBpedia. Access is managed through this private repository.
 
-## Contents
+## Files
 
-- [Dataset_Guide.xlsx](Dataset_Guide.xlsx): workbook inventory, native fields, partition reconciliation, row counts, tested joins and concrete limitations.
-- [datasets/](datasets/): 48 dataset workbooks, organized by KOS. This includes 47 unchanged source copies and one reviewed SUMO replacement.
-- [Computing example](examples/computing/README.md): a small, traceable illustration using one computing/programming theme.
-- [Sample Excel](examples/computing/KOS_Computing_Samples.xlsx): 42 selected native records and their source-row evidence.
-- [Structure diagrams](examples/computing/KOS_Computing_Structures.pdf): a three-page comparison of the selected structures.
+- [cleaned_10000/](cleaned_10000/): seven cleaned Excel workbooks, each containing 10,000 data rows selected from the existing collection.
+- [datasets/](datasets/): the earlier 48-workbook collection, including 47 unchanged downloaded copies and one reviewed SUMO workbook.
+- [Dataset_Guide.xlsx](Dataset_Guide.xlsx): inventory, fields, partitions and checks for the earlier collection.
+- [examples/computing/](examples/computing/): the existing 42-record sample workbook, structure PDF and example notes.
 
-There are 50 Excel workbooks in total: 48 dataset workbooks, one dataset guide and one sample workbook. The guide indexes all 63 input workbooks, including archive-only inputs that are not included here. Use its retention decision and output-path fields to identify the retained files. The original downloads and redundant ZIP packages are not part of this repository.
+## Cleaned datasets
 
-## Dataset overview
+The total is 70,000 data rows. Headers, notes and source lists are excluded. A data row may be a concept, document, relationship, expression or reference value; 10,000 rows does not mean 10,000 concepts.
 
-| System | Workbooks | Principal retained data |
-|---|---:|---|
-| [DDC](datasets/DDC/) | 8 | 942 observed labels; 271,060 documents and 271,060 assignments |
-| [UDC](datasets/UDC/) | 2 | 2,452 Summary concepts; 1,001 companion documents and 649 notation links |
-| [LCC](datasets/LCC/) | 1 | 9,967 source entries; 9,377 derived layout relationships |
-| [LCSH](datasets/LCSH/) | 16 | 81,923 units; 213,958 statements; 11,463 ordered component rows |
-| [SUMO](datasets/SUMO/) | 2 | 8,914 symbols; 11,024 reviewed binary symbol rows; 27,600 full native expressions |
-| [Wikidata](datasets/Wikidata/) | 14 | 31,253 units; 150,305 statements; 123,233 qualifiers; 66,730 reference snaks |
-| [DBpedia](datasets/DBpedia/) | 5 | 13,606 units; 49,728 statements |
+| Workbook | Data rows by sheet or record type |
+|---|---|
+| [DDC](cleaned_10000/DDC_10000.xlsx) | 942 observed labels + 4,529 documents + 4,529 assignments |
+| [UDC](cleaned_10000/UDC_10000.xlsx) | 2,452 concepts + 2,724 relationships + 2,290 texts + 884 examples + 1,001 documents + 649 assignments |
+| [LCC](cleaned_10000/LCC_10000.xlsx) | 5,295 source entries + 4,705 layout relationships |
+| [LCSH](cleaned_10000/LCSH_10000.xlsx) | 10,000 statements, with available labels, classification details and ordered components attached |
+| [SUMO](cleaned_10000/SUMO_10000.xlsx) | 5,652 complete expressions + 4,348 symbols |
+| [Wikidata](cleaned_10000/Wikidata_10000.xlsx) | 5,152 statements + 1,849 qualifiers + 2,999 reference property values |
+| [DBpedia](cleaned_10000/DBpedia_10000.xlsx) | 7,000 resource statements + 3,000 ontology statements |
 
-These counts represent different kinds of records. Boundary identifiers, schema units, embedded nodes, source entries and observed corpus labels must not all be treated as comparable concepts.
+Selection covers the topics available in the existing downloads. Redundant records and unnecessary management metadata are reduced while native text, identifiers, relationship meaning and source locations are preserved. Workbook notes explain the selection and remaining gaps.
 
-## Reading and joining
+DDC contains observed document labels rather than an official schedule. UDC uses the public Summary. LCC covers the retained H, N, Q and T material; its layout links are derived from indentation. Graph boundary records remain explicit. SUMO preserves complete selected expressions, and Wikidata keeps all qualifiers and reference rows attached to selected statements. These are finite research samples, not complete or semantically equivalent KOS datasets.
 
-1. Read `Overview` and `Issues` in the guide before interpreting the counts.
-2. Use `Workbooks` to locate files and `Partitions` to assemble each logical table exactly once, in part order. Some initial segments are in the main Prepared workbook.
-3. Use `Fields` for original column names, interpretation, actual types and missing counts. Use `Joins` for tested references and scope gaps.
-4. Preserve identifiers, classification punctuation, original text, role/status, predicate, language, datatype and source locators. Optional blanks are not filled with invented values.
-
-## Specific corrections and limits
-
-- **SUMO:** `SUMO_Structural_Data.xlsx` replaces the original main workbook. It preserves Units, Texts and Sources. Statements retains only verified top-level ground expressions with two symbol arguments. The exclusion ledger lists 7,726 lossy projections and 114 numeric-argument rows outside that restricted view. The companion Native_Logic workbook preserves all complete expressions and dependencies.
-- **DDC:** the existing duplicate flag describes normalized title/description families, excluding the label. There are 305 repeated families, but zero identical raw DDC/title/description triples. All records are retained. This corpus does not provide an official DDC schedule hierarchy.
-- **UDC:** component matches are not complete compound-classmark interpretations. Native boundary URIs and unmatched documents remain available.
-- **LCC:** layoutContains is derived from indentation and is not a verified subclass predicate.
-- **Wikidata:** prepared statement IDs are unique; some native IDs repeat. Property metadata and qualifier/reference targets are not fully fetched. Use the exact counts in Joins.
-- Some original acquisition/revision metadata cells are numeric Excel date serials; originals are preserved. Source version metadata remains in the native Sources sheets.
-
-Source URLs, versions and rights notices remain source-specific; the collection does not assert a blanket redistribution licence. Refer to the guide and retained Sources sheets. Existing Sample_Manifest sheets describe earlier preparation only. 
-
-## How the example relates to the analysis
-
-The workbook inventory, field checks and record statistics describe the retained collection across topics. The computing example is an additional structural illustration. Python is reused in DDC, LCC and DBpedia; UDC, LCSH and SUMO use language categories, while the selected Wikidata chain is at a broader discipline level. These records do not assert cross-system equivalence.
-
-Read the [example notes](examples/computing/README.md) for the selection rationale. The sample workbook's Evidence sheet points to paths relative to this repository root, preserving the source sheet, physical Excel row and record ID.
+Source URLs, versions and rights notices remain in the workbooks. There is no blanket redistribution licence for the collection.
