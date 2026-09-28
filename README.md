@@ -16,7 +16,7 @@ The cleaned workbooks contain 90,000 data rows in total, excluding headers, note
 - [FAST](cleaned_10000/FAST_10000.xlsx): 10,000 semantic statements selected across topics and facets through OCLC's official SRU interface. This is a query-based sample, not a full-database probability sample.
 - [YAGO 4.6](cleaned_10000/YAGO_4_6_10000.xlsx): 10,000 native subclass relationships from the official taxonomy and schema files, with available labels and source locations. This covers class structure rather than entity facts.
 
-The comparison reuses computing/Python where the retained data supports it. Tables precede diagrams, with neighboring entries and relationship types identified. Some context comes from the full retained collection rather than the 10,000-row subsets. DDC has observed document labels, not an official schedule; LCC layout links are derived from indentation. The nine samples are not equivalent in scope or granularity.
+The comparison reuses computing/Python where the retained data supports it. Tables precede diagrams, with neighboring entries and relationship types identified. Some context comes from the full retained collection rather than the 10,000-row subsets. DDC document assignments come from the local corpus, with broader groups added from OCLC's official summaries; LCC layout links are derived from indentation. The nine samples are not equivalent in scope or granularity.
 
 The five-page comparison covers all nine KOS, including FAST subject headings and mappings and YAGO 4.6 code classes. BabelNet has no prepared sample, and WordNet remains deferred.
 
