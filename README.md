@@ -13,6 +13,7 @@ Private research collection for DDC, UDC, LCC, LCSH, SUMO, Wikidata, DBpedia, FA
 
 The cleaned workbooks contain 90,000 data rows in total, excluding headers, notes and source lists. Rows can represent concepts, documents, relationships, expressions or references; they are not all concepts. Each workbook explains its selection, fields and source locations.
 
+- [DDC](cleaned_10000/DDC_10000.xlsx): the original 10,000 rows are preserved. Seven added columns in `Units` provide DDC 23 summary parent/main-class groups and sources for 873 observed labels. The 58 unassigned and 11 optional numbers are flagged without new hierarchy links; 20 matched rows have an uncertain parent caption marked in the workbook. This adds summary context, not full WebDewey hierarchy or validation of the original document assignments.
 - [FAST](cleaned_10000/FAST_10000.xlsx): 10,000 semantic statements selected across topics and facets through OCLC's official SRU interface. This is a query-based sample, not a full-database probability sample.
 - [YAGO 4.6](cleaned_10000/YAGO_4_6_10000.xlsx): 10,000 native subclass relationships from the official taxonomy and schema files, with available labels and source locations. This covers class structure rather than entity facts.
 
