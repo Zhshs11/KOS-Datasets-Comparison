@@ -1,6 +1,6 @@
 # Computing across KOS
 
-One computing/programming theme is reused across the nine available KOS, with Python included where the local records support it. This is a small structural comparison, not an equivalence mapping or coverage benchmark.
+One computing/programming theme is reused across the nine KOS in the published comparison, with Python included where the local records support it. This is a small structural comparison, not an equivalence mapping or coverage benchmark.
 
 ## Files
 
@@ -22,6 +22,6 @@ One computing/programming theme is reused across the nine available KOS, with Py
 
 Source workbook names, sheets and physical Excel row numbers appear in the PDF and LaTeX source. The original seven illustrated examples use the retained [datasets](../../datasets/) collection; some neighboring rows are outside the [10,000-row subsets](../../cleaned_10000/). The DDC diagram also adds hierarchy from the [OCLC DDC Summaries](https://www.oclc.org/content/dam/oclc/dewey/ddc23-summaries.pdf), distinguished from document assignments recorded in Excel.
 
-Page 5 uses relationships directly from the [FAST](../../cleaned_10000/FAST_10000.xlsx) and [YAGO 4.6](../../cleaned_10000/YAGO_4_6_10000.xlsx) 10,000-row workbooks. These show language headings and code classes at different levels of the shared theme. BabelNet has no prepared sample, and WordNet remains deferred.
+Page 5 uses relationships directly from the [FAST](../../cleaned_10000/FAST_10000.xlsx) and [YAGO 4.6](../../cleaned_10000/YAGO_4_6_10000.xlsx) 10,000-row workbooks. These show language headings and code classes at different levels of the shared theme. The [BabelNet workbook](../../cleaned_10000/BabelNet_10000.xlsx) is available separately. The published PDF and LaTeX source do not yet include its example. WordNet remains deferred.
 
 See the [dataset guide](../../Dataset_Guide.xlsx) for collection details and the [repository overview](../../README.md) for file locations.
