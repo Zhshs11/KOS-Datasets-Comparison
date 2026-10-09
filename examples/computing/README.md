@@ -1,12 +1,12 @@
 # Computing across KOS
 
-One computing/programming theme is reused across the nine KOS in the published comparison, with Python included where the local records support it. This is a small structural comparison, not an equivalence mapping or coverage benchmark.
+One computing/programming theme is reused across the ten KOS in the published PDF, with Python included where the local records support it. This is a small structural comparison, not an equivalence mapping or coverage benchmark.
 
 ## Files
 
-- [KOS_Computing_Samples.xlsx](KOS_Computing_Samples.xlsx): the original 42-record selection for seven KOS, with native fields and source-row evidence. It excludes FAST, YAGO 4.6, the added official DDC summary context and some neighbors in the revised diagrams.
-- [KOS_Computing_Structures.pdf](KOS_Computing_Structures.pdf): five pages, with each evidence table above its corresponding diagram.
-- [KOS_Computing_Structures.tex](KOS_Computing_Structures.tex): self-contained editable LaTeX source for the PDF; no external images or data files are needed to compile it.
+- [KOS_Computing_Samples.xlsx](KOS_Computing_Samples.xlsx): the original 42-record selection for seven KOS, with native fields and source-row evidence. It excludes FAST, YAGO 4.6, BabelNet, the added official DDC summary context and some neighbors in the revised diagrams.
+- [KOS_Computing_Structures.pdf](KOS_Computing_Structures.pdf): six pages covering ten KOS, with each evidence table above its corresponding diagram and a short explanation of how to identify parent and child nodes.
+- [KOS_Computing_Structures.tex](KOS_Computing_Structures.tex): editable source for the earlier five-page, nine-KOS version. It has not yet been synchronized with the current PDF.
 
 | KOS | What the example shows |
 |---|---|
@@ -19,9 +19,10 @@ One computing/programming theme is reused across the nine KOS in the published c
 | DBpedia | Python and Assembly language resources share a class type; Gramps has a programmingLanguage link to Python. |
 | FAST | Kotlin and Wolfram language share a broader heading; Wolfram language has another broader heading and a mapping to LCSH. |
 | YAGO 4.6 | Source code and Control flow are subclasses of Computer code, which is a subclass of Text (literary theory). |
+| BabelNet | Assembly language, COBOL and machine code share programming language as a broader concept through recorded hypernym or subclass_of relations. |
 
-Source workbook names, sheets and physical Excel row numbers appear in the PDF and LaTeX source. The original seven illustrated examples use the retained [datasets](../../datasets/) collection; some neighboring rows are outside the [10,000-row subsets](../../cleaned_10000/). The DDC diagram also adds hierarchy from the [OCLC DDC Summaries](https://www.oclc.org/content/dam/oclc/dewey/ddc23-summaries.pdf), distinguished from document assignments recorded in Excel.
+Source workbook names, sheets and physical Excel row numbers appear in the PDF. The original seven illustrated examples use the retained [datasets](../../datasets/) collection; some neighboring rows are outside the [10,000-row subsets](../../cleaned_10000/). The DDC diagram also adds hierarchy from the [OCLC DDC Summaries](https://www.oclc.org/content/dam/oclc/dewey/ddc23-summaries.pdf), distinguished from document assignments recorded in Excel.
 
-Page 5 uses relationships directly from the [FAST](../../cleaned_10000/FAST_10000.xlsx) and [YAGO 4.6](../../cleaned_10000/YAGO_4_6_10000.xlsx) 10,000-row workbooks. These show language headings and code classes at different levels of the shared theme. The [BabelNet workbook](../../cleaned_10000/BabelNet_10000.xlsx) is available separately. The published PDF and LaTeX source do not yet include its example. WordNet remains deferred.
+Page 5 uses relationships directly from the [FAST](../../cleaned_10000/FAST_10000.xlsx) and [YAGO 4.6](../../cleaned_10000/YAGO_4_6_10000.xlsx) 10,000-row workbooks. These show language headings and code classes at different levels of the shared theme. Page 6 uses the [BabelNet workbook](../../cleaned_10000/BabelNet_10000.xlsx) and explains how recorded relations, rather than numeric IDs, identify its hierarchy. This is a research subset, not a complete BabelNet export. WordNet remains deferred.
 
 See the [dataset guide](../../Dataset_Guide.xlsx) for collection details and the [repository overview](../../README.md) for file locations.
