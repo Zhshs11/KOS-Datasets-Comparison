@@ -1,0 +1,78 @@
+resource_id,family_id,resource_name,organizational_contrast,relationship_and_boundary,panel_reason,panel_status
+F1-001,F1,DDC,Decimal subject hierarchy,"UDC is related, but a distinct classification.",Decimal classification contrast.,Selected
+F1-002,F1,LCC,Schedule-based subject classification,"LCSH is a separate vocabulary, not this scheme.",Alternative schedule and notation design.,Selected
+F1-003,F1,UDC,Analytico-synthetic classification,Historically related to DDC; adds combination rules.,Auxiliary and compound-subject expressions.,Selected
+F1-005,F1,ANZSRC,Research-field and R&D classification,Correspondences to FORD; independent system.,OpenAlex supplies the selected research-topic contrast.,Alternative
+F1-008,F1,arXiv Categories,Preprint subject taxonomy,Category aliases do not create new resources.,Additional platform-specific topic taxonomy.,Alternative
+F1-009,F1,ASJC,Journal subject classification,ASJC-derived subfields are used in OpenAlex.,No separate journal-classification case allocated.,Alternative
+F1-017,F1,CPC-Patent,Patent technology classification,Related to IPC; independently maintained.,Patent-classification scenario not allocated.,Alternative
+F1-021,F1,DFG Classification,Funding and review-field classification,Related comparison: ERC panels and FORD.,Review-field allocation not separately represented.,Alternative
+F1-023,F1,ERC Panel Structure,Research-review panel structure,Related comparison: DFG fields and FORD.,Panel-allocation structure not separately represented.,Alternative
+F1-024,F1,EuroSciVoc,Scientific subject hierarchy,Upper levels align with FORD; distinct from EuroVoc.,OpenAlex is the selected research-topic case.,Alternative
+F1-025,F1,FORD,Broad research-field classification,Used or extended by other R&D classifications.,Broad R&D-field scheme not separately allocated.,Alternative
+F1-033,F1,ICS,Standards subject classification,The scheme is distinct from ISO standards texts.,Standards-classification scenario not allocated.,Alternative
+F1-034,F1,IPC,Patent subject hierarchy,Related to CPC-Patent; not an identical scheme.,Patent-classification scenario not allocated.,Alternative
+F1-035,F1,ISCED / ISCED-F,Educational-field classification,ISCED-F complements ISCED education levels.,Educational-field scenario not allocated.,Alternative
+F1-039,F1,KNOWMAK,Research-policy topic system,Topic ontology links research data and user queries.,Policy-challenge scenario not allocated.,Alternative
+F1-045,F1,Nature Subjects,Publisher subject taxonomy,Historical name: NPG Subject Ontology.,Additional publisher-topic scheme.,Alternative
+F1-049,F1,OpenAlex Topics,Data-driven research-topic hierarchy,Uses ASJC-derived subfields; not the whole OpenAlex graph.,"Non-library, data-driven classification contrast.",Selected
+F1-054,F1,Science-Metrix,Bibliometric field hierarchy,Reused in SciNoBo; related to ASJC.,Additional bibliometric classification.,Alternative
+F1-055,F1,SciNoBo FoS,Extended research-topic hierarchy,Combines FORD and Science-Metrix with finer topics.,OpenAlex occupies this panel role; no superiority claimed.,Alternative
+F1-057,F1,SRAO,Application subject hierarchy,Reuses subject terms from several vocabularies.,Additional application-oriented subject hierarchy.,Alternative
+F1-062,F1,WoS Categories,Journal subject-category list,Do not infer an official tree from category names.,Flat category-list contrast not allocated.,Alternative
+F2-001,F2,FAST,Faceted subject terminology,Derived from LCSH; the pair remains in the panel.,Tests a substantive reorganization of related source content.,Selected
+F2-002,F2,LCSH,Controlled subject headings,Source for FAST; not identical to FAST.,Heading-based system and source–derivative comparison.,Selected
+F2-012,F2,EuroVoc,Multidisciplinary subject thesaurus,Distinct from EuroSciVoc; scope reflects EU activities.,Beyond the three selected F2 design contrasts.,Alternative
+F2-020,F2,LCGFT,Genre/form vocabulary,Distinct purpose from LCSH topical headings.,Form/genre scenario not separately allocated.,Alternative
+F2-032,F2,PSH,Polythematic subject headings,Bilingual system with multiple semantic relation types.,Credible additional F2 case; not judged structurally weaker.,Alternative
+F2-043,F2,UNESCO Thesaurus,Multidisciplinary subject thesaurus,Distinct from UNESCO science nomenclature.,Beyond the three selected F2 design contrasts.,Alternative
+F2-045,F2,YSO,Concept-oriented subject indexing,From YSA/Allärs; LCSH links do not establish derivation.,Ontology-based concept organization alongside heading systems.,Selected
+F3-001,F3,SUMO,Axiomatized ontology and knowledge,WordNet mappings; included SUMO modules must be declared.,"Formal-axiom contrast, not hypothetical downstream knowledge.",Selected
+F3-004,F3,BFO,Foundational ontology,CCO extends BFO with mid-level content.,Standalone foundation not separately allocated.,Alternative
+F3-009,F3,CCO,Modular mid-level ontology suite,Extends BFO; modules count as one resource.,Modular mid-level modeling contrast.,Selected
+F3-016,F3,Cyc / OpenCyc,Formal commonsense knowledge lineage,Public OpenCyc must not inherit full commercial Cyc capabilities.,"Another formal-knowledge case; SUMO is selected, not proved better.",Alternative
+F3-017,F3,DCAT,Dataset and catalog vocabulary,Can use PROV-O and other metadata vocabularies.,Catalog-description scenario not separately allocated.,Alternative
+F3-019,F3,DOLCE / DUL,Foundational objects/events/qualities,"DUL is a related derivative, not identical to DOLCE.",Additional foundational-modeling case.,Alternative
+F3-027,F3,FOAF,"People, agents and identity vocabulary",Related to ORG and online identity descriptions.,Social-identity modeling not separately allocated.,Alternative
+F3-029,F3,FrameBase,Frame-based knowledge schema,"Reorganizes FrameNet and WordNet, both also selected.",Frame-to-graph reconstruction relevant to the proposed design.,Selected
+F3-031,F3,GFO,Foundational object/process ontology,"GFO-Bio is a related extension, not credited automatically.",Additional foundational-modeling case.,Alternative
+F3-032,F3,gist,Enterprise upper ontology,Core and extensions belong to the same system.,Additional enterprise-modeling case.,Alternative
+F3-036,F3,IAO,Information-entity ontology,Originated from OBI-related work; independently identified.,Information-artifact scenario not separately allocated.,Alternative
+F3-040,F3,ModSci,Scientific domains and research objects,Uses scientific branches and other ontology resources.,Scientific-modeling scenario not separately allocated.,Alternative
+F3-044,F3,ODRL,Rights and usage-policy vocabulary,Related to policy descriptions; not a rule engine.,Rights-policy scenario not separately allocated.,Alternative
+F3-045,F3,ORG,Organizational structure ontology,Related to FOAF; includes membership and roles.,Organizational-modeling scenario not separately allocated.,Alternative
+F3-046,F3,OWL-Time,Temporal concepts and relationships,"A content ontology, not the OWL representation language.",Temporal-modeling scenario not separately allocated.,Alternative
+F3-051,F3,PROV-O,Provenance ontology,OWL encoding of the PROV model.,Provenance scenario not separately allocated.,Alternative
+F3-052,F3,QUDT,"Quantities, units and dimensions",Suite includes both schema and reference vocabularies.,Measurement-reference scenario not separately allocated.,Alternative
+F3-056,F3,Schema.org,Cross-domain type/property vocabulary,Used by YAGO; web instances are not part of the vocabulary itself.,A fourth F3 vocabulary contrast is not allocated.,Alternative
+F3-057,F3,SIO,Scientific foundational ontology,Generic elements and biomedical emphasis both recorded.,Additional scientific-modeling case.,Alternative
+F3-062,F3,SSN / SOSA,"Observation, sampling and actuation",SOSA is the lightweight core of SSN.,Observation-modeling scenario not separately allocated.,Alternative
+F3-066,F3,UFO / gUFO,Foundational type/event/social ontology,gUFO implements selected UFO content; not the complete theory.,Additional foundational-modeling case.,Alternative
+F3-067,F3,UO,Measurement-unit ontology,Related scope to QUDT; separately maintained.,Measurement-reference scenario not separately allocated.,Alternative
+F3-069,F3,YAMATO,Top-level ontology,"Hozo is related software, not another counted resource.",Additional foundational-modeling case.,Alternative
+F4-001,F4,DBpedia,Encyclopedia-extracted knowledge graph,Wikipedia extraction; overlaps with other encyclopedic sources.,Extraction-based factual-graph contrast.,Selected
+F4-002,F4,Wikidata,Collaborative qualified statements,Source for YAGO and other integrations; dependencies stay visible.,Entity statements with qualifiers and references.,Selected
+F4-003,F4,YAGO,Integrated and constrained knowledge base,Sources vary by version; includes a Wikidata/Schema.org lineage.,Constraints and source reorganization are substantive contrasts.,Selected
+F4-006,F4,ATOMIC,Event/situation commonsense graph,Upstream of CSKG; distinct from the COMET generative model.,Event-centered commonsense evidence.,Selected
+F4-009,F4,ConceptNet,Word/phrase commonsense graph,Integrates several sources; also contributes to CSKG.,"Term-centered semantic relations; ambiguity is assessed, not banned.",Selected
+F4-010,F4,CSKG,Heterogeneous commonsense integration,Integrates selected sources; already uses KGTK.,Close integrated comparison for the common-representation contribution.,Selected
+F4-012,F4,EventKG,Event-centered temporal graph,Integrates event data from other knowledge resources.,Additional temporal/event integration case.,Alternative
+F4-013,F4,Freebase,Historical entity knowledge base,Final Freebase snapshot; links to Wikidata.,Another entity-graph case; age is not an exclusion rule.,Alternative
+F4-019,F4,KBpedia,Integrated reference-concept graph,Combines several selected sources under its own organization.,Another integration case; not treated as duplicate content.,Alternative
+F4-023,F4,NELL,Web-learned typed knowledge graph,"Ontology, confidence and provenance accompany learned content.",Additional acquisition case; automation is not a disqualifier.,Alternative
+F4-024,F4,OpenAIRE Graph,Research metadata graph,"Connects products, people, projects and organizations.",Research-metadata scenario not allocated.,Alternative
+F4-025,F4,ORKG,Structured scientific contributions,"Problems, methods and results; not merely bibliographic metadata.",Scientific-contribution scenario not allocated.,Alternative
+F4-032,F4,VIAF,Name-authority and identity aggregation,Combines authority records from multiple institutions.,Authority-alignment scenario not allocated.,Alternative
+F5-001,F5,BabelNet,Lexical–encyclopedic semantic network,Integrates WordNet and other lexical/encyclopedic sources.,Integrated meaning network alongside source resources.,Selected
+F5-002,F5,FrameNet,"Frames, lexical units and semantic roles",Source for FrameBase and CSKG; both also selected.,Frame-semantic contrast and informative cross-family links.,Selected
+F5-003,F5,HowNet / OpenHowNet,Compositional sememe knowledge,"OpenHowNet exposes HowNet-related words, sememes and roles.",Semantic-decomposition contrast.,Selected
+F5-005,F5,NomBank frames,Noun senses and argument roles,Related to PropBank and NOMLEX.,Specialist noun-role inventory not separately allocated.,Alternative
+F5-006,F5,PDEV,Verb patterns and argument types,Uses CPA semantic types; not the underlying corpus.,Specialist verb-pattern inventory not separately allocated.,Alternative
+F5-007,F5,PropBank frames,Predicate senses and argument roles,"Related to NomBank, VerbNet and FrameNet.",Specialist roleset inventory not separately allocated.,Alternative
+F5-008,F5,Roget,Conceptually organized lexical classes,Roget content contributes to CSKG; edition matters.,Additional lexical-classification model.,Alternative
+F5-009,F5,UBY,Integrated lexical-sense resource,"Combines WordNet, Wiktionary, FrameNet and other resources.",BabelNet is the selected integration case; no superiority claimed.,Alternative
+F5-010,F5,USAS tagset,Semantic-category hierarchy,"The catalog verifies public tags, not all English lexical mappings.",Semantic-tagging model not separately allocated.,Alternative
+F5-011,F5,VerbAtlas,Verbal frames and universal roles,Derived from WordNet verb synsets; adds frame/role structure.,"Another predicate–argument model, not an ineligible derivative.",Alternative
+F5-012,F5,VerbNet,Verb classes and argument structure,"Has mappings to WordNet, PropBank and FrameNet.",Specialist verb-class model not separately allocated.,Alternative
+F5-013,F5,Wiktionary,Dictionary senses and lexical relations,DBnary is the recorded structured extraction.,Additional dictionary-derived lexical case.,Alternative
+F5-014,F5,WordNet,Synsets and lexical-semantic relations,Reused in selected integrations; mappings are not deduplicated away.,Sense-network reference and source–integration comparisons.,Selected

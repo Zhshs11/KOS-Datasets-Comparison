@@ -6,6 +6,7 @@ Research collection for DDC, UDC, LCC, LCSH, SUMO, Wikidata, DBpedia, FAST, YAGO
 
 | Location | Contents |
 |---|---|
+| [supplements/resource-selection/](supplements/resource-selection/) | Selection record from 224 resources to 20 candidates, with decision tables and reproducibility scripts. |
 | [cleaned_10000/](cleaned_10000/) | Ten cleaned Excel workbooks, with 10,000 data rows per KOS. |
 | [datasets/](datasets/) | Earlier 48-workbook collection: 47 unchanged downloaded copies and one reviewed SUMO workbook. |
 | [Dataset_Guide.xlsx](Dataset_Guide.xlsx) | Inventory, fields, partitions and checks for the earlier collection. |

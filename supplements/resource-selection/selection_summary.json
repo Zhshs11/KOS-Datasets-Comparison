@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "stages": {
+    "identified": 224,
+    "after_scope": 99,
+    "after_english": 88,
+    "after_access": 77,
+    "selected": 20
+  },
+  "families": {
+    "F1": {
+      "name": "Classification systems",
+      "identified": 62,
+      "after_scope": 28,
+      "after_english": 25,
+      "after_access": 21,
+      "selected": 4,
+      "alternatives": 17
+    },
+    "F2": {
+      "name": "Subject headings and controlled vocabularies",
+      "identified": 46,
+      "after_scope": 16,
+      "after_english": 10,
+      "after_access": 7,
+      "selected": 3,
+      "alternatives": 4
+    },
+    "F3": {
+      "name": "Ontologies and formal knowledge bases",
+      "identified": 69,
+      "after_scope": 23,
+      "after_english": 23,
+      "after_access": 23,
+      "selected": 3,
+      "alternatives": 20
+    },
+    "F4": {
+      "name": "Knowledge graphs and entity authorities",
+      "identified": 33,
+      "after_scope": 18,
+      "after_english": 17,
+      "after_access": 13,
+      "selected": 6,
+      "alternatives": 7
+    },
+    "F5": {
+      "name": "Lexical-semantic resources",
+      "identified": 14,
+      "after_scope": 14,
+      "after_english": 13,
+      "after_access": 13,
+      "selected": 4,
+      "alternatives": 9
+    }
+  },
+  "first_nonpass": {
+    "S1": 125,
+    "S3": 11,
+    "S2": 11
+  },
+  "selected_ids": [
+    "F1-001",
+    "F1-002",
+    "F1-003",
+    "F1-049",
+    "F2-001",
+    "F2-002",
+    "F2-045",
+    "F3-001",
+    "F3-009",
+    "F3-029",
+    "F4-001",
+    "F4-002",
+    "F4-003",
+    "F4-006",
+    "F4-009",
+    "F4-010",
+    "F5-001",
+    "F5-002",
+    "F5-003",
+    "F5-014"
+  ]
+}
